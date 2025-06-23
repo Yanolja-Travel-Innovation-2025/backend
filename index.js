@@ -15,6 +15,8 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Server is healthy!' });
 });
 
+app.use('/api/auth', require('./routes/auth'));
+
 connectDB().then(() => {
   app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
