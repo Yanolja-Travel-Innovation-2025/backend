@@ -21,7 +21,12 @@ PORT=4000
 docker-compose up -d
 ```
 
-### 3. 서버 시작
+### 3. 배지 데이터 시딩 (최초 1회)
+```bash
+npm run seed
+```
+
+### 4. 서버 시작
 ```bash
 npm install
 node index.js
