@@ -3,30 +3,24 @@
 ## 환경 설정
 
 ### 1. 환경변수 설정
-`.env` 파일을 생성하고 다음 내용을 추가하세요:
+`backend` 폴더에 `.env` 파일을 생성하고 다음 내용을 **정확히** 복사해서 붙여넣으세요:
 
 ```env
-# 데이터베이스 설정
 MONGO_URI=mongodb://admin:pass1234@localhost:27017/yanolja?authSource=admin
-
-# JWT 설정
-JWT_SECRET=your-super-secret-jwt-key-here-please-change-in-production
-
-# 서버 설정
+JWT_SECRET=digital-passport-jeju-2024-super-secret-key
 PORT=4000
 ```
 
-### 2. MongoDB 시작
+**중요**: 위 값들을 정확히 복사해서 사용하세요!
+
+### 2. MongoDB 시작 (자동 데이터 초기화 포함)
 ```bash
 docker-compose up -d
 ```
 
-### 3. 배지 데이터 시딩 (최초 1회)
-```bash
-npm run seed
-```
+**✨ 첫 실행 시 제주도 배지 데이터가 자동으로 생성됩니다!**
 
-### 4. 서버 시작
+### 3. 서버 시작
 ```bash
 npm install
 node index.js

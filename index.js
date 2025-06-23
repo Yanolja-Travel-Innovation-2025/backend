@@ -21,6 +21,7 @@ app.use('/api/partner', require('./routes/partner'));
 
 connectDB().then(() => {
   app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`);
+    console.log(`🚀 Server listening on port ${PORT}`);
+    console.log(`📍 Health check: http://localhost:${PORT}/api/health`);
   });
 }); 
