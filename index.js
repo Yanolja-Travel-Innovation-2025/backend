@@ -17,6 +17,7 @@ app.get('/api/health', (req, res) => {
 
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/badge', require('./routes/badge'));
+app.use('/api/partner', require('./routes/partner'));
 
 connectDB().then(() => {
   app.listen(PORT, () => {
