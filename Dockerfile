@@ -15,5 +15,5 @@ COPY . .
 # 포트 노출
 EXPOSE 4000
 
-# 기본 명령어 (docker-compose에서 override됨)
-CMD ["npm", "start"] 
+# 기본 명령어
+CMD ["node", "index.js"] 
