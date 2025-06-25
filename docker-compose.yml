@@ -12,5 +12,33 @@ services:
     volumes:
       - mongo_data:/data/db
       - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    container_name: backend-yanolja
+    restart: always
+    ports:
+      - '4000:4000'
+    environment:
+      - MONGO_URI=mongodb://admin:pass1234@mongo:27017/yanolja?authSource=admin
+      - JWT_SECRET=digital-passport-jeju-2024-super-secret-key
+      - PORT=4000
+    depends_on:
+      mongo:
+        condition: service_healthy
+    command: >
+      sh -c "
+        echo '🔄 MongoDB 연결 대기 중...' &&
+        sleep 10 &&
+        echo '🌱 배지 데이터 시딩 시작...' &&
+        npm run seed &&
+        echo '🚀 서버 시작...' &&
+        npm start
+      "
 volumes:
   mongo_data: 
