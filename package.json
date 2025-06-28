@@ -9,7 +9,12 @@
     "seed": "node scripts/seedBadges.js",
     "seed:partners": "node scripts/seedPartners.js",
     "metadata": "node scripts/generateSampleMetadata.js",
-    "generate:metadata": "node scripts/generateBadgeMetadata.js"
+    "generate:metadata": "node scripts/generateBadgeMetadata.js",
+    "blockchain:local": "npx hardhat node",
+    "blockchain:test": "npx hardhat run scripts/test-local.js --network localhost",
+    "blockchain:deploy": "npx hardhat run scripts/deploy.js",
+    "blockchain:deploy:amoy": "npx hardhat run scripts/deploy.js --network amoy",
+    "blockchain:verify": "npx hardhat verify --network amoy"
   },
   "keywords": [],
   "author": "",
