@@ -5,16 +5,23 @@ const auth = require('../middlewares/auth');
 const blockchainService = require('../utils/blockchain');
 const { createNFTMetadata, generateBadgeImageUrl } = require('../utils/nftMetadata');
 const { uploadMetadataToIPFS, createLocalMetadata } = require('../utils/ipfsUpload');
+const logger = require('../utils/logger');
 
 const router = express.Router();
 
 // 전체 배지 목록 조회 (공개)
 router.get('/', async (req, res) => {
   try {
-    const badges = await Badge.find();
-    res.json(badges);
+    const badges = await Badge.find({ isActive: true }).select('-__v');
+    logger.info('배지 목록 조회', { count: badges.length });
+    res.json({ success: true, badges, count: badges.length });
   } catch (err) {
-    res.status(500).json({ message: '서버 오류', error: err.message });
+    logger.error('배지 목록 조회 실패', err);
+    res.status(500).json({ 
+      success: false, 
+      message: '배지 목록을 불러오는데 실패했습니다.', 
+      error: process.env.NODE_ENV === 'development' ? err.message : undefined 
+    });
   }
 });
 
@@ -22,10 +29,32 @@ router.get('/', async (req, res) => {
 router.get('/my', auth, async (req, res) => {
   try {
     const user = await User.findById(req.user.userId).populate('badges');
-    if (!user) return res.status(404).json({ message: '사용자를 찾을 수 없습니다.' });
-    res.json(user.badges);
+    if (!user) {
+      logger.warn('존재하지 않는 사용자 조회 시도', { userId: req.user.userId });
+      return res.status(404).json({ 
+        success: false, 
+        message: '사용자를 찾을 수 없습니다.' 
+      });
+    }
+    
+    logger.info('내 배지 목록 조회', {
+      userId: req.user.userId,
+      badgeCount: user.badges.length
+    });
+    
+    res.json({ 
+      success: true, 
+      badges: user.badges,
+      count: user.badges.length,
+      walletConnected: !!user.walletAddress
+    });
   } catch (err) {
-    res.status(500).json({ message: '서버 오류', error: err.message });
+    logger.error('내 배지 목록 조회 실패', err, { userId: req.user.userId });
+    res.status(500).json({ 
+      success: false, 
+      message: '배지 목록을 불러오는데 실패했습니다.', 
+      error: process.env.NODE_ENV === 'development' ? err.message : undefined 
+    });
   }
 });
 
@@ -48,7 +77,8 @@ router.post('/issue', auth, async (req, res) => {
     // NFT 발행 (지갑 주소가 있는 경우에만)
     if (user.walletAddress) {
       try {
-        console.log('🎫 NFT 배지 발행 시작:', {
+        logger.info('NFT 배지 발행 시작', {
+          userId: req.user.userId,
           user: user.nickname,
           badge: badge.name,
           wallet: user.walletAddress
@@ -117,9 +147,28 @@ router.post('/issue', auth, async (req, res) => {
           metadataUri
         );
         
-        console.log('✅ NFT 발행 성공:', nftResult);
+        logger.nftMinted(
+          req.user.userId,
+          badgeId,
+          nftResult.txHash,
+          true,
+          { badgeName: badge.name, wallet: user.walletAddress }
+        );
       } catch (nftError) {
-        console.error('❌ NFT 발행 실패:', nftError.message);
+        logger.error('NFT 발행 실패', nftError, {
+          userId: req.user.userId,
+          badgeId,
+          wallet: user.walletAddress
+        });
+        
+        logger.nftMinted(
+          req.user.userId,
+          badgeId,
+          null,
+          false,
+          { error: nftError.message }
+        );
+        
         // NFT 발행 실패해도 데이터베이스 배지는 발급
         nftResult = { success: false, error: nftError.message };
       }
@@ -142,7 +191,20 @@ router.post('/issue', auth, async (req, res) => {
     
     await user.save();
     
+    logger.badgeIssued(
+      req.user.userId,
+      badgeId,
+      true,
+      { 
+        badgeName: badge.name,
+        rarity: badge.rarity,
+        nftEnabled: !!user.walletAddress,
+        nftSuccess: nftResult?.success || false
+      }
+    );
+    
     const responseData = {
+      success: true,
       message: '배지 발급 완료',
       badgeId,
       badge: {
@@ -160,8 +222,23 @@ router.post('/issue', auth, async (req, res) => {
     
     res.json(responseData);
   } catch (err) {
-    console.error('배지 발급 오류:', err);
-    res.status(500).json({ message: '서버 오류', error: err.message });
+    logger.error('배지 발급 오류', err, {
+      userId: req.user.userId,
+      badgeId: req.body.badgeId
+    });
+    
+    logger.badgeIssued(
+      req.user.userId,
+      req.body.badgeId,
+      false,
+      { error: err.message }
+    );
+    
+    res.status(500).json({ 
+      success: false, 
+      message: '배지 발급에 실패했습니다. 잠시 후 다시 시도해주세요.', 
+      error: process.env.NODE_ENV === 'development' ? err.message : undefined 
+    });
   }
 });
 
