@@ -48,4 +48,36 @@ router.post('/login', async (req, res) => {
   }
 });
 
+// 지갑 주소 업데이트
+router.patch('/wallet', auth, async (req, res) => {
+  try {
+    const { walletAddress } = req.body;
+    const userId = req.user.userId;
+
+    // 지갑 주소 형식 검증 (선택적)
+    if (walletAddress && !/^0x[a-fA-F0-9]{40}$/.test(walletAddress)) {
+      return res.status(400).json({ message: '올바르지 않은 지갑 주소 형식입니다.' });
+    }
+
+    // 사용자 정보 업데이트
+    const user = await User.findByIdAndUpdate(
+      userId,
+      { walletAddress },
+      { new: true }
+    ).select('-password');
+
+    if (!user) {
+      return res.status(404).json({ message: '사용자를 찾을 수 없습니다.' });
+    }
+
+    res.json({ 
+      message: walletAddress ? '지갑 주소가 연결되었습니다.' : '지갑 연결이 해제되었습니다.',
+      user 
+    });
+  } catch (err) {
+    console.error('지갑 주소 업데이트 오류:', err);
+    res.status(500).json({ message: '서버 오류', error: err.message });
+  }
+});
+
 module.exports = router; 
