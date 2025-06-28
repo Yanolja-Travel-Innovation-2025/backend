@@ -11,6 +11,13 @@ const BadgeSchema = new mongoose.Schema({
   },
   rarity: { type: String, enum: ['bronze', 'silver', 'gold'], default: 'bronze' },
   isActive: { type: Boolean, default: true },
+  nft: { // NFT 관련 정보
+    metadataUri: String,
+    imageUri: String,
+    ipfsHash: String,
+    contractAddress: String,
+    isNftEnabled: { type: Boolean, default: true }
+  },
   createdAt: { type: Date, default: Date.now },
 });
 

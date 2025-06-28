@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 const Badge = require('../models/Badge');
+const fs = require('fs');
+const path = require('path');
 require('dotenv').config();
 
 // 제주도 실제 관광지 배지 데이터
@@ -199,13 +201,33 @@ async function seedBadges() {
     await Badge.deleteMany({});
     console.log('기존 배지 데이터 삭제 완료');
 
+    // NFT 메타데이터가 포함된 배지 데이터 로드
+    let dataToInsert = badgesData;
+    const metadataFilePath = path.join(__dirname, 'badgesWithMetadata.json');
+    
+    if (fs.existsSync(metadataFilePath)) {
+      console.log('📄 NFT 메타데이터가 포함된 배지 데이터 사용');
+      const metadataFileContent = fs.readFileSync(metadataFilePath, 'utf8');
+      dataToInsert = JSON.parse(metadataFileContent);
+    } else {
+      console.log('⚠️  기본 배지 데이터 사용 (NFT 메타데이터 없음)');
+    }
+
     // 새 배지 데이터 삽입
-    const badges = await Badge.insertMany(badgesData);
+    const badges = await Badge.insertMany(dataToInsert);
     console.log(`${badges.length}개의 배지 데이터 시딩 완료:`);
     
     badges.forEach((badge, index) => {
-      console.log(`${index + 1}. ${badge.name} (${badge.rarity}) - ID: ${badge._id}`);
+      const nftStatus = badge.nft?.isNftEnabled ? '✅ NFT 지원' : '❌ NFT 미지원';
+      console.log(`${index + 1}. ${badge.name} (${badge.rarity}) - ${nftStatus} - ID: ${badge._id}`);
     });
+
+    // NFT 메타데이터 통계
+    const nftEnabledCount = badges.filter(badge => badge.nft?.isNftEnabled).length;
+    console.log(`\n📊 NFT 메타데이터 통계:`);
+    console.log(`- NFT 지원 배지: ${nftEnabledCount}개`);
+    console.log(`- 전체 배지: ${badges.length}개`);
+    console.log(`- NFT 지원률: ${Math.round((nftEnabledCount / badges.length) * 100)}%`);
 
     process.exit(0);
   } catch (error) {

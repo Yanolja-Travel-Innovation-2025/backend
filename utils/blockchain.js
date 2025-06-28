@@ -1,4 +1,6 @@
 const { ethers } = require('hardhat');
+const { createNFTMetadata, generateBadgeImageUrl } = require('./nftMetadata');
+const { uploadMetadataToIPFS, createLocalMetadata } = require('./ipfsUpload');
 require('dotenv').config();
 
 // NFT 컨트랙트 ABI (주요 함수만)

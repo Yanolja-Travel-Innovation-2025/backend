@@ -3,7 +3,8 @@ const Badge = require('../models/Badge');
 const User = require('../models/User');
 const auth = require('../middlewares/auth');
 const blockchainService = require('../utils/blockchain');
-const { generateNFTMetadata, uploadToIPFS } = require('../utils/nftMetadata');
+const { createNFTMetadata, generateBadgeImageUrl } = require('../utils/nftMetadata');
+const { uploadMetadataToIPFS, createLocalMetadata } = require('../utils/ipfsUpload');
 
 const router = express.Router();
 
@@ -54,11 +55,53 @@ router.post('/issue', auth, async (req, res) => {
         });
         
         // NFT 메타데이터 생성
-        const metadata = generateNFTMetadata(badge, user);
+        const imageUrl = generateBadgeImageUrl(badge.name, badge.rarity);
+        const metadataObj = createNFTMetadata({
+          name: badge.name,
+          description: badge.description,
+          location: badge.location?.name || '',
+          rarity: badge.rarity,
+          coordinates: badge.location?.coordinates ? 
+            `${badge.location.coordinates[1]},${badge.location.coordinates[0]}` : '',
+          imageUrl: imageUrl,
+          timestamp: new Date()
+        });
         
-        // IPFS에 메타데이터 업로드
-        const metadataUri = await uploadToIPFS(metadata);
-        console.log('📁 IPFS 업로드 완료:', metadataUri);
+        // IPFS에 메타데이터 업로드 시도
+        let metadataUri;
+        try {
+          if (process.env.PINATA_API_KEY && process.env.PINATA_SECRET_API_KEY) {
+            const metadataFileName = `${badge.name.replace(/\s+/g, '_')}_${Date.now()}.json`;
+            const ipfsHash = await uploadMetadataToIPFS(metadataObj, metadataFileName);
+            metadataUri = `https://gateway.pinata.cloud/ipfs/${ipfsHash}`;
+            console.log('📁 IPFS 업로드 완료:', metadataUri);
+          } else {
+            // IPFS 설정이 없으면 로컬 메타데이터 사용
+            const localData = createLocalMetadata({
+              name: badge.name,
+              description: badge.description,
+              location: badge.location?.name || '',
+              rarity: badge.rarity,
+              coordinates: badge.location?.coordinates ? 
+                `${badge.location.coordinates[1]},${badge.location.coordinates[0]}` : '',
+              timestamp: new Date()
+            });
+            metadataUri = localData.metadataUrl;
+            console.log('📁 로컬 메타데이터 생성 완료');
+          }
+        } catch (ipfsError) {
+          console.error('❌ IPFS 업로드 실패, 로컬 메타데이터 사용:', ipfsError.message);
+          const localData = createLocalMetadata({
+            name: badge.name,
+            description: badge.description,
+            location: badge.location?.name || '',
+            rarity: badge.rarity,
+            coordinates: badge.location?.coordinates ? 
+              `${badge.location.coordinates[1]},${badge.location.coordinates[0]}` : '',
+            timestamp: new Date()
+          });
+          metadataUri = localData.metadataUrl;
+        }
         
         // 블록체인에 NFT 발행
         nftResult = await blockchainService.mintBadge(

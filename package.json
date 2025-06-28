@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node scripts/seedBadges.js",
     "seed:partners": "node scripts/seedPartners.js",
-    "metadata": "node scripts/generateSampleMetadata.js"
+    "metadata": "node scripts/generateSampleMetadata.js",
+    "generate:metadata": "node scripts/generateBadgeMetadata.js"
   },
   "keywords": [],
   "author": "",

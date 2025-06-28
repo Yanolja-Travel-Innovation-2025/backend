@@ -1,0 +1,302 @@
+[
+  {
+    "name": "한라산 정상 탐험가",
+    "description": "제주도의 최고봉 한라산 정상을 정복한 용감한 탐험가",
+    "image": "https://images.unsplash.com/photo-1579834410263-41c3075a359b?q=80&w=1974&auto=format&fit=crop",
+    "location": {
+      "name": "한라산 백록담",
+      "coordinates": [
+        126.5312,
+        33.3617
+      ],
+      "qrCode": "HALLASAN_SUMMIT_2024"
+    },
+    "rarity": "gold",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDtlZzrnbzsgrAg7KCV7IOBIO2DkO2XmOqwgCIsImRlc2NyaXB0aW9uIjoi7KCc7KO864+E7J2YIOy1nOqzoOu0iSDtlZzrnbzsgrAg7KCV7IOB7J2EIOygleuzte2VnCDsmqnqsJDtlZwg7YOQ7ZeY6rCAXG5cbvCfk40g7JyE7LmYOiDtlZzrnbzsgrAg67Cx66Gd64u0XG7wn5OFIO2ajeuTneydvDogMjAyNC4gMS4gMS4iLCJpbWFnZSI6Imh0dHBzOi8vYXBpLmplanVwYXNzcG9ydC5jb20vaW1hZ2VzL2JhZGdlcy/tlZzrnbzsgrBf7KCV7IOBX+2DkO2XmOqwgF9nb2xkLnBuZyIsImV4dGVybmFsX3VybCI6Imh0dHBzOi8vamVqdXBhc3Nwb3J0LmNvbS9iYWRnZS8lRUQlOTUlOUMlRUIlOUQlQkMlRUMlODIlQjAlMjAlRUMlQTAlOTUlRUMlODMlODElMjAlRUQlODMlOTAlRUQlOTclOTglRUElQjAlODAiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLtlZzrnbzsgrAg67Cx66Gd64u0In0seyJ0cmFpdF90eXBlIjoi65Ox6riJIiwidmFsdWUiOiJHT0xEIn0seyJ0cmFpdF90eXBlIjoi7Z2s7IaM7ISxIOygkOyImCIsInZhbHVlIjozLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7Jew64+EIiwidmFsdWUiOjIwMjQsImRpc3BsYXlfdHlwZSI6ImRhdGUifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7JuUIiwidmFsdWUiOjEsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuychOuPhCIsInZhbHVlIjoxMjYuNTMxMiwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi6rK964+EIiwidmFsdWUiOjMzLjM2MTcsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0ZGRDcwMCJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi41MzEyLCJsb25naXR1ZGUiOjMzLjM2MTd9LCJyYXJpdHlfY29sb3IiOiIjRkZENzAwIiwiaXNzdWVkX3RpbWVzdGFtcCI6IjIwMjQtMDEtMDFUMDA6MDA6MDAuMDAwWiIsInZlcnNpb24iOiIxLjAifX0=",
+      "imageUri": "https://api.jejupassport.com/images/badges/한라산_정상_탐험가_gold.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "성산일출봉 일출 감상가",
+    "description": "유네스코 세계자연유산 성산일출봉에서 황홀한 일출을 감상한 여행자",
+    "image": "https://images.unsplash.com/photo-1520637836862-4d197d17c23a?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "성산일출봉",
+      "coordinates": [
+        126.9423,
+        33.4584
+      ],
+      "qrCode": "SEONGSAN_SUNRISE_2024"
+    },
+    "rarity": "silver",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDshLHsgrDsnbzstpzrtIkg7J287LacIOqwkOyDgeqwgCIsImRlc2NyaXB0aW9uIjoi7Jyg64Sk7Iqk7L2UIOyEuOqzhOyekOyXsOycoOyCsCDshLHsgrDsnbzstpzrtInsl5DshJwg7Zmp7ZmA7ZWcIOydvOy2nOydhCDqsJDsg4HtlZwg7Jes7ZaJ7J6QXG5cbvCfk40g7JyE7LmYOiDshLHsgrDsnbzstpzrtIlcbvCfk4Ug7ZqN65Od7J28OiAyMDI0LiAxLiAxLiIsImltYWdlIjoiaHR0cHM6Ly9hcGkuamVqdXBhc3Nwb3J0LmNvbS9pbWFnZXMvYmFkZ2VzL+yEseyCsOydvOy2nOu0iV/snbzstpxf6rCQ7IOB6rCAX3NpbHZlci5wbmciLCJleHRlcm5hbF91cmwiOiJodHRwczovL2planVwYXNzcG9ydC5jb20vYmFkZ2UvJUVDJTg0JUIxJUVDJTgyJUIwJUVDJTlEJUJDJUVDJUI2JTlDJUVCJUI0JTg5JTIwJUVDJTlEJUJDJUVDJUI2JTlDJTIwJUVBJUIwJTkwJUVDJTgzJTgxJUVBJUIwJTgwIiwiYXR0cmlidXRlcyI6W3sidHJhaXRfdHlwZSI6IuychOy5mCIsInZhbHVlIjoi7ISx7IKw7J287Lac67SJIn0seyJ0cmFpdF90eXBlIjoi65Ox6riJIiwidmFsdWUiOiJTSUxWRVIifSx7InRyYWl0X3R5cGUiOiLtnazshozshLEg7KCQ7IiYIiwidmFsdWUiOjIsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuuwnOq4iSDsl7Drj4QiLCJ2YWx1ZSI6MjAyNCwiZGlzcGxheV90eXBlIjoiZGF0ZSJ9LHsidHJhaXRfdHlwZSI6IuuwnOq4iSDsm5QiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7JyE64+EIiwidmFsdWUiOjEyNi45NDIzLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLqsr3rj4QiLCJ2YWx1ZSI6MzMuNDU4NCwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7IOJ7IOBIiwidmFsdWUiOiIjQzBDMEMwIn1dLCJjb2xsZWN0aW9uIjp7Im5hbWUiOiLsoJzso7zrj4Qg65SU7KeA7YS4IOq0gOq0kSDsl6zqtowiLCJmYW1pbHkiOiJKZWp1IERpZ2l0YWwgUGFzc3BvcnQifSwicHJvcGVydGllcyI6eyJjYXRlZ29yeSI6IlRyYXZlbCBCYWRnZSIsInJlZ2lvbiI6IuygnOyjvOuPhCIsImNvdW50cnkiOiLrjIDtlZzrr7zqta0iLCJjb29yZGluYXRlcyI6eyJsYXRpdHVkZSI6MTI2Ljk0MjMsImxvbmdpdHVkZSI6MzMuNDU4NH0sInJhcml0eV9jb2xvciI6IiNDMEMwQzAiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/성산일출봉_일출_감상가_silver.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "우도 자전거 일주자",
+    "description": "섬 속의 작은 섬 우도를 자전거로 일주한 모험가",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "우도 등대",
+      "coordinates": [
+        126.9502,
+        33.5064
+      ],
+      "qrCode": "UDO_LIGHTHOUSE_2024"
+    },
+    "rarity": "silver",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDsmrDrj4Qg7J6Q7KCE6rGwIOydvOyjvOyekCIsImRlc2NyaXB0aW9uIjoi7ISsIOyGjeydmCDsnpHsnYAg7ISsIOyasOuPhOulvCDsnpDsoITqsbDroZwg7J287KO87ZWcIOuqqO2XmOqwgFxuXG7wn5ONIOychOy5mDog7Jqw64+EIOuTseuMgFxu8J+ThSDtmo3rk53snbw6IDIwMjQuIDEuIDEuIiwiaW1hZ2UiOiJodHRwczovL2FwaS5qZWp1cGFzc3BvcnQuY29tL2ltYWdlcy9iYWRnZXMv7Jqw64+EX+yekOyghOqxsF/snbzso7zsnpBfc2lsdmVyLnBuZyIsImV4dGVybmFsX3VybCI6Imh0dHBzOi8vamVqdXBhc3Nwb3J0LmNvbS9iYWRnZS8lRUMlOUElQjAlRUIlOEYlODQlMjAlRUMlOUUlOTAlRUMlQTAlODQlRUElQjElQjAlMjAlRUMlOUQlQkMlRUMlQTMlQkMlRUMlOUUlOTAiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLsmrDrj4Qg65Ox64yAIn0seyJ0cmFpdF90eXBlIjoi65Ox6riJIiwidmFsdWUiOiJTSUxWRVIifSx7InRyYWl0X3R5cGUiOiLtnazshozshLEg7KCQ7IiYIiwidmFsdWUiOjIsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuuwnOq4iSDsl7Drj4QiLCJ2YWx1ZSI6MjAyNCwiZGlzcGxheV90eXBlIjoiZGF0ZSJ9LHsidHJhaXRfdHlwZSI6IuuwnOq4iSDsm5QiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7JyE64+EIiwidmFsdWUiOjEyNi45NTAyLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLqsr3rj4QiLCJ2YWx1ZSI6MzMuNTA2NCwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7IOJ7IOBIiwidmFsdWUiOiIjQzBDMEMwIn1dLCJjb2xsZWN0aW9uIjp7Im5hbWUiOiLsoJzso7zrj4Qg65SU7KeA7YS4IOq0gOq0kSDsl6zqtowiLCJmYW1pbHkiOiJKZWp1IERpZ2l0YWwgUGFzc3BvcnQifSwicHJvcGVydGllcyI6eyJjYXRlZ29yeSI6IlRyYXZlbCBCYWRnZSIsInJlZ2lvbiI6IuygnOyjvOuPhCIsImNvdW50cnkiOiLrjIDtlZzrr7zqta0iLCJjb29yZGluYXRlcyI6eyJsYXRpdHVkZSI6MTI2Ljk1MDIsImxvbmdpdHVkZSI6MzMuNTA2NH0sInJhcml0eV9jb2xvciI6IiNDMEMwQzAiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/우도_자전거_일주자_silver.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "협재해수욕장 해양 탐험가",
+    "description": "에메랄드빛 바다 협재해수욕장의 아름다운 해변을 만끽한 여행자",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "협재해수욕장",
+      "coordinates": [
+        126.2394,
+        33.3939
+      ],
+      "qrCode": "HYEOPJAE_BEACH_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDtmJHsnqztlbTsiJjsmpXsnqUg7ZW07JaRIO2DkO2XmOqwgCIsImRlc2NyaXB0aW9uIjoi7JeQ66mU656E65Oc67mbIOuwlOuLpCDtmJHsnqztlbTsiJjsmpXsnqXsnZgg7JWE66aE64uk7Jq0IO2VtOuzgOydhCDrp4zrgb3tlZwg7Jes7ZaJ7J6QXG5cbvCfk40g7JyE7LmYOiDtmJHsnqztlbTsiJjsmpXsnqVcbvCfk4Ug7ZqN65Od7J28OiAyMDI0LiAxLiAxLiIsImltYWdlIjoiaHR0cHM6Ly9hcGkuamVqdXBhc3Nwb3J0LmNvbS9pbWFnZXMvYmFkZ2VzL+2YkeyerO2VtOyImOyaleyepV/tlbTslpFf7YOQ7ZeY6rCAX2Jyb256ZS5wbmciLCJleHRlcm5hbF91cmwiOiJodHRwczovL2planVwYXNzcG9ydC5jb20vYmFkZ2UvJUVEJTk4JTkxJUVDJTlFJUFDJUVEJTk1JUI0JUVDJTg4JTk4JUVDJTlBJTk1JUVDJTlFJUE1JTIwJUVEJTk1JUI0JUVDJTk2JTkxJTIwJUVEJTgzJTkwJUVEJTk3JTk4JUVBJUIwJTgwIiwiYXR0cmlidXRlcyI6W3sidHJhaXRfdHlwZSI6IuychOy5mCIsInZhbHVlIjoi7ZiR7J6s7ZW07IiY7JqV7J6lIn0seyJ0cmFpdF90eXBlIjoi65Ox6riJIiwidmFsdWUiOiJCUk9OWkUifSx7InRyYWl0X3R5cGUiOiLtnazshozshLEg7KCQ7IiYIiwidmFsdWUiOjEsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuuwnOq4iSDsl7Drj4QiLCJ2YWx1ZSI6MjAyNCwiZGlzcGxheV90eXBlIjoiZGF0ZSJ9LHsidHJhaXRfdHlwZSI6IuuwnOq4iSDsm5QiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7JyE64+EIiwidmFsdWUiOjEyNi4yMzk0LCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLqsr3rj4QiLCJ2YWx1ZSI6MzMuMzkzOSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7IOJ7IOBIiwidmFsdWUiOiIjQ0Q3RjMyIn1dLCJjb2xsZWN0aW9uIjp7Im5hbWUiOiLsoJzso7zrj4Qg65SU7KeA7YS4IOq0gOq0kSDsl6zqtowiLCJmYW1pbHkiOiJKZWp1IERpZ2l0YWwgUGFzc3BvcnQifSwicHJvcGVydGllcyI6eyJjYXRlZ29yeSI6IlRyYXZlbCBCYWRnZSIsInJlZ2lvbiI6IuygnOyjvOuPhCIsImNvdW50cnkiOiLrjIDtlZzrr7zqta0iLCJjb29yZGluYXRlcyI6eyJsYXRpdHVkZSI6MTI2LjIzOTQsImxvbmdpdHVkZSI6MzMuMzkzOX0sInJhcml0eV9jb2xvciI6IiNDRDdGMzIiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/협재해수욕장_해양_탐험가_bronze.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "올레길 7코스 완주자",
+    "description": "제주 올레길 7코스(독립바위~월평)를 완주한 올레꾼",
+    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "올레길 7코스 시작점",
+      "coordinates": [
+        126.2654,
+        33.245
+      ],
+      "qrCode": "OLLE_TRAIL_7_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDsmKzroIjquLggN+y9lOyKpCDsmYTso7zsnpAiLCJkZXNjcmlwdGlvbiI6IuygnOyjvCDsmKzroIjquLggN+y9lOyKpCjrj4Xrpr3rsJTsnIR+7JuU7Y+JKeulvCDsmYTso7ztlZwg7Jis66CI6r68XG5cbvCfk40g7JyE7LmYOiDsmKzroIjquLggN+y9lOyKpCDsi5zsnpHsoJBcbvCfk4Ug7ZqN65Od7J28OiAyMDI0LiAxLiAxLiIsImltYWdlIjoiaHR0cHM6Ly9hcGkuamVqdXBhc3Nwb3J0LmNvbS9pbWFnZXMvYmFkZ2VzL+yYrOugiOq4uF837L2U7IqkX+yZhOyjvOyekF9icm9uemUucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFQyU5OCVBQyVFQiVBMCU4OCVFQSVCOCVCOCUyMDclRUMlQkQlOTQlRUMlOEElQTQlMjAlRUMlOTklODQlRUMlQTMlQkMlRUMlOUUlOTAiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLsmKzroIjquLggN+y9lOyKpCDsi5zsnpHsoJAifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IkJST05aRSJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjI2NTQsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuqyveuPhCIsInZhbHVlIjozMy4yNDUsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0NEN0YzMiJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi4yNjU0LCJsb25naXR1ZGUiOjMzLjI0NX0sInJhcml0eV9jb2xvciI6IiNDRDdGMzIiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/올레길_7코스_완주자_bronze.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "정방폭포 마이너스 이온 체험가",
+    "description": "바다로 떨어지는 신비로운 정방폭포의 마이너스 이온을 흠뻑 마신 여행자",
+    "image": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "정방폭포",
+      "coordinates": [
+        126.8547,
+        33.2444
+      ],
+      "qrCode": "JEONGBANG_WATERFALL_2024"
+    },
+    "rarity": "silver",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDsoJXrsKntj63tj6wg66eI7J2064SI7IqkIOydtOyYqCDssrTtl5jqsIAiLCJkZXNjcmlwdGlvbiI6IuuwlOuLpOuhnCDrlqjslrTsp4DripQg7Iug67mE66Gc7Jq0IOygleuwqe2Pre2PrOydmCDrp4jsnbTrhIjsiqQg7J207Jio7J2EIO2doOu7kSDrp4jsi6Ag7Jes7ZaJ7J6QXG5cbvCfk40g7JyE7LmYOiDsoJXrsKntj63tj6xcbvCfk4Ug7ZqN65Od7J28OiAyMDI0LiAxLiAxLiIsImltYWdlIjoiaHR0cHM6Ly9hcGkuamVqdXBhc3Nwb3J0LmNvbS9pbWFnZXMvYmFkZ2VzL+ygleuwqe2Pre2PrF/rp4jsnbTrhIjsiqRf7J207JioX+yytO2XmOqwgF9zaWx2ZXIucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFQyVBMCU5NSVFQiVCMCVBOSVFRCU4RiVBRCVFRCU4RiVBQyUyMCVFQiVBNyU4OCVFQyU5RCVCNCVFQiU4NCU4OCVFQyU4QSVBNCUyMCVFQyU5RCVCNCVFQyU5OCVBOCUyMCVFQyVCMiVCNCVFRCU5NyU5OCVFQSVCMCU4MCIsImF0dHJpYnV0ZXMiOlt7InRyYWl0X3R5cGUiOiLsnITsuZgiLCJ2YWx1ZSI6Iuygleuwqe2Pre2PrCJ9LHsidHJhaXRfdHlwZSI6IuuTseq4iSIsInZhbHVlIjoiU0lMVkVSIn0seyJ0cmFpdF90eXBlIjoi7Z2s7IaM7ISxIOygkOyImCIsInZhbHVlIjoyLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7Jew64+EIiwidmFsdWUiOjIwMjQsImRpc3BsYXlfdHlwZSI6ImRhdGUifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7JuUIiwidmFsdWUiOjEsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuychOuPhCIsInZhbHVlIjoxMjYuODU0NywiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi6rK964+EIiwidmFsdWUiOjMzLjI0NDQsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0MwQzBDMCJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi44NTQ3LCJsb25naXR1ZGUiOjMzLjI0NDR9LCJyYXJpdHlfY29sb3IiOiIjQzBDMEMwIiwiaXNzdWVkX3RpbWVzdGFtcCI6IjIwMjQtMDEtMDFUMDA6MDA6MDAuMDAwWiIsInZlcnNpb24iOiIxLjAifX0=",
+      "imageUri": "https://api.jejupassport.com/images/badges/정방폭포_마이너스_이온_체험가_silver.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "천지연폭포 밤의 탐험가",
+    "description": "야간 조명이 아름다운 천지연폭포의 환상적인 밤 풍경을 체험한 여행자",
+    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "천지연폭포",
+      "coordinates": [
+        126.557,
+        33.2471
+      ],
+      "qrCode": "CHEONJIYEON_WATERFALL_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDsspzsp4Dsl7Dtj63tj6wg67Ck7J2YIO2DkO2XmOqwgCIsImRlc2NyaXB0aW9uIjoi7JW86rCEIOyhsOuqheydtCDslYTrpoTri6TsmrQg7LKc7KeA7Jew7Y+t7Y+s7J2YIO2ZmOyDgeyggeyduCDrsKQg7ZKN6rK97J2EIOyytO2XmO2VnCDsl6ztlonsnpBcblxu8J+TjSDsnITsuZg6IOyynOyngOyXsO2Pre2PrFxu8J+ThSDtmo3rk53snbw6IDIwMjQuIDEuIDEuIiwiaW1hZ2UiOiJodHRwczovL2FwaS5qZWp1cGFzc3BvcnQuY29tL2ltYWdlcy9iYWRnZXMv7LKc7KeA7Jew7Y+t7Y+sX+uwpOydmF/tg5Dtl5jqsIBfYnJvbnplLnBuZyIsImV4dGVybmFsX3VybCI6Imh0dHBzOi8vamVqdXBhc3Nwb3J0LmNvbS9iYWRnZS8lRUMlQjIlOUMlRUMlQTclODAlRUMlOTclQjAlRUQlOEYlQUQlRUQlOEYlQUMlMjAlRUIlQjAlQTQlRUMlOUQlOTglMjAlRUQlODMlOTAlRUQlOTclOTglRUElQjAlODAiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLsspzsp4Dsl7Dtj63tj6wifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IkJST05aRSJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjU1NywiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi6rK964+EIiwidmFsdWUiOjMzLjI0NzEsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0NEN0YzMiJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi41NTcsImxvbmdpdHVkZSI6MzMuMjQ3MX0sInJhcml0eV9jb2xvciI6IiNDRDdGMzIiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/천지연폭포_밤의_탐험가_bronze.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "만장굴 지하 세계 탐험가",
+    "description": "유네스코 세계자연유산 만장굴의 신비로운 지하 세계를 탐험한 모험가",
+    "image": "https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "만장굴",
+      "coordinates": [
+        126.7715,
+        33.527
+      ],
+      "qrCode": "MANJANGGUL_CAVE_2024"
+    },
+    "rarity": "gold",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDrp4zsnqXqtbQg7KeA7ZWYIOyEuOqzhCDtg5Dtl5jqsIAiLCJkZXNjcmlwdGlvbiI6IuycoOuEpOyKpOy9lCDshLjqs4TsnpDsl7DsnKDsgrAg66eM7J6l6rW07J2YIOyLoOu5hOuhnOyatCDsp4DtlZgg7IS46rOE66W8IO2DkO2XmO2VnCDrqqjtl5jqsIBcblxu8J+TjSDsnITsuZg6IOunjOyepeq1tFxu8J+ThSDtmo3rk53snbw6IDIwMjQuIDEuIDEuIiwiaW1hZ2UiOiJodHRwczovL2FwaS5qZWp1cGFzc3BvcnQuY29tL2ltYWdlcy9iYWRnZXMv66eM7J6l6rW0X+yngO2VmF/shLjqs4Rf7YOQ7ZeY6rCAX2dvbGQucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFQiVBNyU4QyVFQyU5RSVBNSVFQSVCNSVCNCUyMCVFQyVBNyU4MCVFRCU5NSU5OCUyMCVFQyU4NCVCOCVFQSVCMyU4NCUyMCVFRCU4MyU5MCVFRCU5NyU5OCVFQSVCMCU4MCIsImF0dHJpYnV0ZXMiOlt7InRyYWl0X3R5cGUiOiLsnITsuZgiLCJ2YWx1ZSI6IuunjOyepeq1tCJ9LHsidHJhaXRfdHlwZSI6IuuTseq4iSIsInZhbHVlIjoiR09MRCJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MywiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2Ljc3MTUsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuqyveuPhCIsInZhbHVlIjozMy41MjcsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0ZGRDcwMCJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi43NzE1LCJsb25naXR1ZGUiOjMzLjUyN30sInJhcml0eV9jb2xvciI6IiNGRkQ3MDAiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/만장굴_지하_세계_탐험가_gold.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "용두암 용의 전설 탐구자",
+    "description": "용이 하늘로 승천하다 돌이 되었다는 전설의 용두암을 찾은 여행자",
+    "image": "https://images.unsplash.com/photo-1484804959297-65e7c19d7c9f?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "용두암",
+      "coordinates": [
+        126.5096,
+        33.5157
+      ],
+      "qrCode": "YONGDUAM_ROCK_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDsmqnrkZDslZQg7Jqp7J2YIOyghOyEpCDtg5DqtazsnpAiLCJkZXNjcmlwdGlvbiI6IuyaqeydtCDtlZjripjroZwg7Iq57LKc7ZWY64ukIOuPjOydtCDrkJjsl4jri6TripQg7KCE7ISk7J2YIOyaqeuRkOyVlOydhCDssL7snYAg7Jes7ZaJ7J6QXG5cbvCfk40g7JyE7LmYOiDsmqnrkZDslZRcbvCfk4Ug7ZqN65Od7J28OiAyMDI0LiAxLiAxLiIsImltYWdlIjoiaHR0cHM6Ly9hcGkuamVqdXBhc3Nwb3J0LmNvbS9pbWFnZXMvYmFkZ2VzL+yaqeuRkOyVlF/smqnsnZhf7KCE7ISkX+2DkOq1rOyekF9icm9uemUucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFQyU5QSVBOSVFQiU5MSU5MCVFQyU5NSU5NCUyMCVFQyU5QSVBOSVFQyU5RCU5OCUyMCVFQyVBMCU4NCVFQyU4NCVBNCUyMCVFRCU4MyU5MCVFQSVCNSVBQyVFQyU5RSU5MCIsImF0dHJpYnV0ZXMiOlt7InRyYWl0X3R5cGUiOiLsnITsuZgiLCJ2YWx1ZSI6IuyaqeuRkOyVlCJ9LHsidHJhaXRfdHlwZSI6IuuTseq4iSIsInZhbHVlIjoiQlJPTlpFIn0seyJ0cmFpdF90eXBlIjoi7Z2s7IaM7ISxIOygkOyImCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7Jew64+EIiwidmFsdWUiOjIwMjQsImRpc3BsYXlfdHlwZSI6ImRhdGUifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7JuUIiwidmFsdWUiOjEsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuychOuPhCIsInZhbHVlIjoxMjYuNTA5NiwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi6rK964+EIiwidmFsdWUiOjMzLjUxNTcsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0NEN0YzMiJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi41MDk2LCJsb25naXR1ZGUiOjMzLjUxNTd9LCJyYXJpdHlfY29sb3IiOiIjQ0Q3RjMyIiwiaXNzdWVkX3RpbWVzdGFtcCI6IjIwMjQtMDEtMDFUMDA6MDA6MDAuMDAwWiIsInZlcnNpb24iOiIxLjAifX0=",
+      "imageUri": "https://api.jejupassport.com/images/badges/용두암_용의_전설_탐구자_bronze.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "섭지코지 드라마 속 주인공",
+    "description": "드라마와 영화의 배경이 된 아름다운 섭지코지에서 로맨틱한 순간을 만끽한 여행자",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "섭지코지",
+      "coordinates": [
+        126.9309,
+        33.4244
+      ],
+      "qrCode": "SEOPJIKOJI_2024"
+    },
+    "rarity": "silver",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDshK3sp4DsvZTsp4Ag65Oc652866eIIOyGjSDso7zsnbjqs7UiLCJkZXNjcmlwdGlvbiI6IuuTnOudvOuniOyZgCDsmIHtmZTsnZgg67Cw6rK97J20IOuQnCDslYTrpoTri6TsmrQg7ISt7KeA7L2U7KeA7JeQ7IScIOuhnOunqO2Lse2VnCDsiJzqsITsnYQg66eM64G97ZWcIOyXrO2WieyekFxuXG7wn5ONIOychOy5mDog7ISt7KeA7L2U7KeAXG7wn5OFIO2ajeuTneydvDogMjAyNC4gMS4gMS4iLCJpbWFnZSI6Imh0dHBzOi8vYXBpLmplanVwYXNzcG9ydC5jb20vaW1hZ2VzL2JhZGdlcy/shK3sp4DsvZTsp4Bf65Oc652866eIX+yGjV/so7zsnbjqs7Vfc2lsdmVyLnBuZyIsImV4dGVybmFsX3VybCI6Imh0dHBzOi8vamVqdXBhc3Nwb3J0LmNvbS9iYWRnZS8lRUMlODQlQUQlRUMlQTclODAlRUMlQkQlOTQlRUMlQTclODAlMjAlRUIlOTMlOUMlRUIlOUQlQkMlRUIlQTclODglMjAlRUMlODYlOEQlMjAlRUMlQTMlQkMlRUMlOUQlQjglRUElQjMlQjUiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLshK3sp4DsvZTsp4AifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IlNJTFZFUiJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MiwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjkzMDksImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuqyveuPhCIsInZhbHVlIjozMy40MjQ0LCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsg4nsg4EiLCJ2YWx1ZSI6IiNDMEMwQzAifV0sImNvbGxlY3Rpb24iOnsibmFtZSI6IuygnOyjvOuPhCDrlJTsp4DthLgg6rSA6rSRIOyXrOq2jCIsImZhbWlseSI6IkplanUgRGlnaXRhbCBQYXNzcG9ydCJ9LCJwcm9wZXJ0aWVzIjp7ImNhdGVnb3J5IjoiVHJhdmVsIEJhZGdlIiwicmVnaW9uIjoi7KCc7KO864+EIiwiY291bnRyeSI6IuuMgO2VnOuvvOq1rSIsImNvb3JkaW5hdGVzIjp7ImxhdGl0dWRlIjoxMjYuOTMwOSwibG9uZ2l0dWRlIjozMy40MjQ0fSwicmFyaXR5X2NvbG9yIjoiI0MwQzBDMCIsImlzc3VlZF90aW1lc3RhbXAiOiIyMDI0LTAxLTAxVDAwOjAwOjAwLjAwMFoiLCJ2ZXJzaW9uIjoiMS4wIn19",
+      "imageUri": "https://api.jejupassport.com/images/badges/섭지코지_드라마_속_주인공_silver.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "곽지해수욕장 서핑 도전자",
+    "description": "제주 서부 곽지해수욕장에서 파도와 함께 춤춘 서핑 도전자",
+    "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "곽지해수욕장",
+      "coordinates": [
+        126.304,
+        33.4503
+      ],
+      "qrCode": "GWAKJI_BEACH_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDqs73sp4DtlbTsiJjsmpXsnqUg7ISc7ZWRIOuPhOyghOyekCIsImRlc2NyaXB0aW9uIjoi7KCc7KO8IOyEnOu2gCDqs73sp4DtlbTsiJjsmpXsnqXsl5DshJwg7YyM64+E7JmAIO2VqOq7mCDstqTstpgg7ISc7ZWRIOuPhOyghOyekFxuXG7wn5ONIOychOy5mDog6rO97KeA7ZW07IiY7JqV7J6lXG7wn5OFIO2ajeuTneydvDogMjAyNC4gMS4gMS4iLCJpbWFnZSI6Imh0dHBzOi8vYXBpLmplanVwYXNzcG9ydC5jb20vaW1hZ2VzL2JhZGdlcy/qs73sp4DtlbTsiJjsmpXsnqVf7ISc7ZWRX+uPhOyghOyekF9icm9uemUucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFQSVCMyVCRCVFQyVBNyU4MCVFRCU5NSVCNCVFQyU4OCU5OCVFQyU5QSU5NSVFQyU5RSVBNSUyMCVFQyU4NCU5QyVFRCU5NSU5MSUyMCVFQiU4RiU4NCVFQyVBMCU4NCVFQyU5RSU5MCIsImF0dHJpYnV0ZXMiOlt7InRyYWl0X3R5cGUiOiLsnITsuZgiLCJ2YWx1ZSI6IuqzveyngO2VtOyImOyaleyepSJ9LHsidHJhaXRfdHlwZSI6IuuTseq4iSIsInZhbHVlIjoiQlJPTlpFIn0seyJ0cmFpdF90eXBlIjoi7Z2s7IaM7ISxIOygkOyImCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7Jew64+EIiwidmFsdWUiOjIwMjQsImRpc3BsYXlfdHlwZSI6ImRhdGUifSx7InRyYWl0X3R5cGUiOiLrsJzquIkg7JuUIiwidmFsdWUiOjEsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuychOuPhCIsInZhbHVlIjoxMjYuMzA0LCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLqsr3rj4QiLCJ2YWx1ZSI6MzMuNDUwMywiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi7IOJ7IOBIiwidmFsdWUiOiIjQ0Q3RjMyIn1dLCJjb2xsZWN0aW9uIjp7Im5hbWUiOiLsoJzso7zrj4Qg65SU7KeA7YS4IOq0gOq0kSDsl6zqtowiLCJmYW1pbHkiOiJKZWp1IERpZ2l0YWwgUGFzc3BvcnQifSwicHJvcGVydGllcyI6eyJjYXRlZ29yeSI6IlRyYXZlbCBCYWRnZSIsInJlZ2lvbiI6IuygnOyjvOuPhCIsImNvdW50cnkiOiLrjIDtlZzrr7zqta0iLCJjb29yZGluYXRlcyI6eyJsYXRpdHVkZSI6MTI2LjMwNCwibG9uZ2l0dWRlIjozMy40NTAzfSwicmFyaXR5X2NvbG9yIjoiI0NEN0YzMiIsImlzc3VlZF90aW1lc3RhbXAiOiIyMDI0LTAxLTAxVDAwOjAwOjAwLjAwMFoiLCJ2ZXJzaW9uIjoiMS4wIn19",
+      "imageUri": "https://api.jejupassport.com/images/badges/곽지해수욕장_서핑_도전자_bronze.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "오설록 티뮤지엄 차 문화 전문가",
+    "description": "제주의 녹차 문화를 깊이 있게 체험한 차 문화 애호가",
+    "image": "https://images.unsplash.com/photo-1563822249548-d3eed65a8b7c?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "오설록 티뮤지엄",
+      "coordinates": [
+        126.289,
+        33.3065
+      ],
+      "qrCode": "OSULLOC_MUSEUM_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDsmKTshKTroZ0g7Yuw666k7KeA7JeEIOywqCDrrLjtmZQg7KCE66y46rCAIiwiZGVzY3JpcHRpb24iOiLsoJzso7zsnZgg64W57LCoIOusuO2ZlOulvCDquYrsnbQg7J6I6rKMIOyytO2XmO2VnCDssKgg66y47ZmUIOyVoO2YuOqwgFxuXG7wn5ONIOychOy5mDog7Jik7ISk66GdIO2LsOuupOyngOyXhFxu8J+ThSDtmo3rk53snbw6IDIwMjQuIDEuIDEuIiwiaW1hZ2UiOiJodHRwczovL2FwaS5qZWp1cGFzc3BvcnQuY29tL2ltYWdlcy9iYWRnZXMv7Jik7ISk66GdX+2LsOuupOyngOyXhF/ssKhf66y47ZmUX+yghOusuOqwgF9icm9uemUucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFQyU5OCVBNCVFQyU4NCVBNCVFQiVBMSU5RCUyMCVFRCU4QiVCMCVFQiVBRSVBNCVFQyVBNyU4MCVFQyU5NyU4NCUyMCVFQyVCMCVBOCUyMCVFQiVBQyVCOCVFRCU5OSU5NCUyMCVFQyVBMCU4NCVFQiVBQyVCOCVFQSVCMCU4MCIsImF0dHJpYnV0ZXMiOlt7InRyYWl0X3R5cGUiOiLsnITsuZgiLCJ2YWx1ZSI6IuyYpOyEpOuhnSDti7DrrqTsp4Dsl4QifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IkJST05aRSJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjI4OSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi6rK964+EIiwidmFsdWUiOjMzLjMwNjUsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0NEN0YzMiJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi4yODksImxvbmdpdHVkZSI6MzMuMzA2NX0sInJhcml0eV9jb2xvciI6IiNDRDdGMzIiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/오설록_티뮤지엄_차_문화_전문가_bronze.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "한라산 영실 기암괴석 탐방자",
+    "description": "한라산 영실코스의 웅장한 기암괴석과 오백나한을 감상한 자연 애호가",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "한라산 영실휴게소",
+      "coordinates": [
+        126.4982,
+        33.352
+      ],
+      "qrCode": "HALLASAN_YEONGSIL_2024"
+    },
+    "rarity": "silver",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDtlZzrnbzsgrAg7JiB7IukIOq4sOyVlOq0tOyEnSDtg5DrsKnsnpAiLCJkZXNjcmlwdGlvbiI6Iu2VnOudvOyCsCDsmIHsi6TsvZTsiqTsnZgg7JuF7J6l7ZWcIOq4sOyVlOq0tOyEneqzvCDsmKTrsLHrgpjtlZzsnYQg6rCQ7IOB7ZWcIOyekOyXsCDslaDtmLjqsIBcblxu8J+TjSDsnITsuZg6IO2VnOudvOyCsCDsmIHsi6TtnLTqsozshoxcbvCfk4Ug7ZqN65Od7J28OiAyMDI0LiAxLiAxLiIsImltYWdlIjoiaHR0cHM6Ly9hcGkuamVqdXBhc3Nwb3J0LmNvbS9pbWFnZXMvYmFkZ2VzL+2VnOudvOyCsF/smIHsi6Rf6riw7JWU6rS07ISdX+2DkOuwqeyekF9zaWx2ZXIucG5nIiwiZXh0ZXJuYWxfdXJsIjoiaHR0cHM6Ly9qZWp1cGFzc3BvcnQuY29tL2JhZGdlLyVFRCU5NSU5QyVFQiU5RCVCQyVFQyU4MiVCMCUyMCVFQyU5OCU4MSVFQyU4QiVBNCUyMCVFQSVCOCVCMCVFQyU5NSU5NCVFQSVCNCVCNCVFQyU4NCU5RCUyMCVFRCU4MyU5MCVFQiVCMCVBOSVFQyU5RSU5MCIsImF0dHJpYnV0ZXMiOlt7InRyYWl0X3R5cGUiOiLsnITsuZgiLCJ2YWx1ZSI6Iu2VnOudvOyCsCDsmIHsi6TtnLTqsozshowifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IlNJTFZFUiJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MiwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjQ5ODIsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuqyveuPhCIsInZhbHVlIjozMy4zNTIsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0MwQzBDMCJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi40OTgyLCJsb25naXR1ZGUiOjMzLjM1Mn0sInJhcml0eV9jb2xvciI6IiNDMEMwQzAiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/한라산_영실_기암괴석_탐방자_silver.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "비자림 숲속 힐링 마스터",
+    "description": "천년의 비자나무들이 만든 신비로운 숲에서 자연 치유를 경험한 힐링 전문가",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "비자림",
+      "coordinates": [
+        126.8069,
+        33.488
+      ],
+      "qrCode": "BIJARIM_FOREST_2024"
+    },
+    "rarity": "silver",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDruYTsnpDrprwg7Iiy7IaNIO2ekOungSDrp4jsiqTthLAiLCJkZXNjcmlwdGlvbiI6IuyynOuFhOydmCDruYTsnpDrgpjrrLTrk6TsnbQg66eM65OgIOyLoOu5hOuhnOyatCDsiLLsl5DshJwg7J6Q7JewIOy5mOycoOulvCDqsr3tl5jtlZwg7Z6Q66eBIOyghOusuOqwgFxuXG7wn5ONIOychOy5mDog67mE7J6Q66a8XG7wn5OFIO2ajeuTneydvDogMjAyNC4gMS4gMS4iLCJpbWFnZSI6Imh0dHBzOi8vYXBpLmplanVwYXNzcG9ydC5jb20vaW1hZ2VzL2JhZGdlcy/ruYTsnpDrprxf7Iiy7IaNX+2ekOungV/rp4jsiqTthLBfc2lsdmVyLnBuZyIsImV4dGVybmFsX3VybCI6Imh0dHBzOi8vamVqdXBhc3Nwb3J0LmNvbS9iYWRnZS8lRUIlQjklODQlRUMlOUUlOTAlRUIlQTYlQkMlMjAlRUMlODglQjIlRUMlODYlOEQlMjAlRUQlOUUlOTAlRUIlQTclODElMjAlRUIlQTclODglRUMlOEElQTQlRUQlODQlQjAiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLruYTsnpDrprwifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IlNJTFZFUiJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MiwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjgwNjksImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuqyveuPhCIsInZhbHVlIjozMy40ODgsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuyDieyDgSIsInZhbHVlIjoiI0MwQzBDMCJ9XSwiY29sbGVjdGlvbiI6eyJuYW1lIjoi7KCc7KO864+EIOuUlOyngO2EuCDqtIDqtJEg7Jes6raMIiwiZmFtaWx5IjoiSmVqdSBEaWdpdGFsIFBhc3Nwb3J0In0sInByb3BlcnRpZXMiOnsiY2F0ZWdvcnkiOiJUcmF2ZWwgQmFkZ2UiLCJyZWdpb24iOiLsoJzso7zrj4QiLCJjb3VudHJ5Ijoi64yA7ZWc66+86rWtIiwiY29vcmRpbmF0ZXMiOnsibGF0aXR1ZGUiOjEyNi44MDY5LCJsb25naXR1ZGUiOjMzLjQ4OH0sInJhcml0eV9jb2xvciI6IiNDMEMwQzAiLCJpc3N1ZWRfdGltZXN0YW1wIjoiMjAyNC0wMS0wMVQwMDowMDowMC4wMDBaIiwidmVyc2lvbiI6IjEuMCJ9fQ==",
+      "imageUri": "https://api.jejupassport.com/images/badges/비자림_숲속_힐링_마스터_silver.png",
+      "isNftEnabled": true
+    }
+  },
+  {
+    "name": "중문관광단지 휴양 마스터",
+    "description": "제주 최대 휴양지 중문관광단지에서 완벽한 휴식을 만끽한 휴양 전문가",
+    "image": "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?q=80&w=2000&auto=format&fit=crop",
+    "location": {
+      "name": "중문관광단지",
+      "coordinates": [
+        126.4123,
+        33.2394
+      ],
+      "qrCode": "JUNGMUN_RESORT_2024"
+    },
+    "rarity": "bronze",
+    "isActive": true,
+    "nft": {
+      "metadataUri": "data:application/json;base64,eyJuYW1lIjoi8J+PhiDspJHrrLjqtIDqtJHri6jsp4Ag7Zy07JaRIOuniOyKpO2EsCIsImRlc2NyaXB0aW9uIjoi7KCc7KO8IOy1nOuMgCDtnLTslpHsp4Ag7KSR66y46rSA6rSR64uo7KeA7JeQ7IScIOyZhOuyve2VnCDtnLTsi53snYQg66eM64G97ZWcIO2ctOyWkSDsoITrrLjqsIBcblxu8J+TjSDsnITsuZg6IOykkeusuOq0gOq0keuLqOyngFxu8J+ThSDtmo3rk53snbw6IDIwMjQuIDEuIDEuIiwiaW1hZ2UiOiJodHRwczovL2FwaS5qZWp1cGFzc3BvcnQuY29tL2ltYWdlcy9iYWRnZXMv7KSR66y46rSA6rSR64uo7KeAX+2ctOyWkV/rp4jsiqTthLBfYnJvbnplLnBuZyIsImV4dGVybmFsX3VybCI6Imh0dHBzOi8vamVqdXBhc3Nwb3J0LmNvbS9iYWRnZS8lRUMlQTQlOTElRUIlQUMlQjglRUElQjQlODAlRUElQjQlOTElRUIlOEIlQTglRUMlQTclODAlMjAlRUQlOUMlQjQlRUMlOTYlOTElMjAlRUIlQTclODglRUMlOEElQTQlRUQlODQlQjAiLCJhdHRyaWJ1dGVzIjpbeyJ0cmFpdF90eXBlIjoi7JyE7LmYIiwidmFsdWUiOiLspJHrrLjqtIDqtJHri6jsp4AifSx7InRyYWl0X3R5cGUiOiLrk7HquIkiLCJ2YWx1ZSI6IkJST05aRSJ9LHsidHJhaXRfdHlwZSI6Iu2drOyGjOyEsSDsoJDsiJgiLCJ2YWx1ZSI6MSwiZGlzcGxheV90eXBlIjoibnVtYmVyIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyXsOuPhCIsInZhbHVlIjoyMDI0LCJkaXNwbGF5X3R5cGUiOiJkYXRlIn0seyJ0cmFpdF90eXBlIjoi67Cc6riJIOyblCIsInZhbHVlIjoxLCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsnITrj4QiLCJ2YWx1ZSI6MTI2LjQxMjMsImRpc3BsYXlfdHlwZSI6Im51bWJlciJ9LHsidHJhaXRfdHlwZSI6IuqyveuPhCIsInZhbHVlIjozMy4yMzk0LCJkaXNwbGF5X3R5cGUiOiJudW1iZXIifSx7InRyYWl0X3R5cGUiOiLsg4nsg4EiLCJ2YWx1ZSI6IiNDRDdGMzIifV0sImNvbGxlY3Rpb24iOnsibmFtZSI6IuygnOyjvOuPhCDrlJTsp4DthLgg6rSA6rSRIOyXrOq2jCIsImZhbWlseSI6IkplanUgRGlnaXRhbCBQYXNzcG9ydCJ9LCJwcm9wZXJ0aWVzIjp7ImNhdGVnb3J5IjoiVHJhdmVsIEJhZGdlIiwicmVnaW9uIjoi7KCc7KO864+EIiwiY291bnRyeSI6IuuMgO2VnOuvvOq1rSIsImNvb3JkaW5hdGVzIjp7ImxhdGl0dWRlIjoxMjYuNDEyMywibG9uZ2l0dWRlIjozMy4yMzk0fSwicmFyaXR5X2NvbG9yIjoiI0NEN0YzMiIsImlzc3VlZF90aW1lc3RhbXAiOiIyMDI0LTAxLTAxVDAwOjAwOjAwLjAwMFoiLCJ2ZXJzaW9uIjoiMS4wIn19",
+      "imageUri": "https://api.jejupassport.com/images/badges/중문관광단지_휴양_마스터_bronze.png",
+      "isNftEnabled": true
+    }
+  }
+]
