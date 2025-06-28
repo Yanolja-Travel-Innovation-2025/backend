@@ -1,0 +1,110 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6
+    container_name: mongo-yanolja-prod
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-securepassword123!}
+      MONGO_INITDB_DATABASE: yanolja
+    volumes:
+      - mongo_data_prod:/data/db
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    networks:
+      - yanolja-network-prod
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: backend-yanolja-prod
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      MONGO_URI: mongodb://admin:${MONGO_PASSWORD:-securepassword123!}@mongo:27017/yanolja?authSource=admin
+      JWT_SECRET: ${JWT_SECRET}
+      PINATA_API_KEY: ${PINATA_API_KEY}
+      PINATA_SECRET_API_KEY: ${PINATA_SECRET_API_KEY}
+      PRIVATE_KEY: ${PRIVATE_KEY}
+      POLYGONSCAN_API_KEY: ${POLYGONSCAN_API_KEY}
+      AMOY_RPC_URL: ${AMOY_RPC_URL:-https://rpc-amoy.polygon.technology/}
+      NFT_CONTRACT_ADDRESS: ${NFT_CONTRACT_ADDRESS}
+      BADGE_IMAGE_BASE_URL: ${BADGE_IMAGE_BASE_URL:-https://api.jejupassport.com/images/badges}
+      ROYALTY_RECIPIENT: ${ROYALTY_RECIPIENT}
+      CORS_ORIGIN: ${CORS_ORIGIN:-https://jejupassport.com,https://www.jejupassport.com}
+      LOG_LEVEL: ${LOG_LEVEL:-warn}
+      LOG_TO_FILE: true
+    ports:
+      - "${BACKEND_PORT:-4000}:4000"
+    volumes:
+      - app_logs_prod:/app/logs
+      - app_uploads_prod:/app/uploads
+    depends_on:
+      mongo:
+        condition: service_healthy
+    networks:
+      - yanolja-network-prod
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-yanolja-prod
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - app_logs_prod:/var/log/nginx
+    depends_on:
+      - backend
+    networks:
+      - yanolja-network-prod
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+        reservations:
+          memory: 64M
+
+volumes:
+  mongo_data_prod:
+    driver: local
+  app_logs_prod:
+    driver: local
+  app_uploads_prod:
+    driver: local
+
+networks:
+  yanolja-network-prod:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
